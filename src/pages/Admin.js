@@ -20,12 +20,12 @@ const Admin = () => {
       <Button variant={"outline-dark"} className="mt-3 p-2" 
       onClick={() => setBrandVisible(true)}>
       
-        Add new Brand
+        Add new Height
       </Button>
       <Button variant={"outline-dark"} className="mt-3 p-2"
       onClick={() => setDeviceVisible(true)}>
      
-        Add new Device
+        Add new Plant
       </Button>
       <CreateType show={typeVisible} onHide={() => setTypeVisible(false)} />
       <CreateBrand show={brandVisible} onHide={() => setBrandVisible(false)} />

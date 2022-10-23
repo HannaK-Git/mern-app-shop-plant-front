@@ -58,7 +58,7 @@ const changeInfo = (key, value, number) => {
     <Modal size="lg" show={show} onHide={onHide} centered>
       <Modal.Header closeButton>
         <Modal.Title id="contained-modal-title-vcenter">
-          Add new Device
+          Add new Plant
         </Modal.Title>
       </Modal.Header>
 
@@ -84,7 +84,7 @@ const changeInfo = (key, value, number) => {
           {/* Brand DropDown  */}
           <Dropdown className="mt-2 mb-2">
             <Dropdown.Toggle>
-              {device.selectedBrand.name || "Choose brand"}
+              {device.selectedBrand.name || "Choose hight"}
             </Dropdown.Toggle>
             <Dropdown.Menu>
               {device.brands.map((brand) => (
@@ -103,7 +103,7 @@ const changeInfo = (key, value, number) => {
             value={name}
             onChange={(e) => setName(e.target.value)}
             className="mt-3"
-            placeholder={"Enter new Device name"}
+            placeholder={"Enter new Plant name"}
           />
 
           {/* Set Price  */}
@@ -111,7 +111,7 @@ const changeInfo = (key, value, number) => {
             value={price}
             onChange={(e) => setPrice(Number(e.target.value))}
             className="mt-3"
-            placeholder={"Enter new Device price"}
+            placeholder={"Enter new Plant price"}
             type="number"
           />
 
@@ -121,7 +121,7 @@ const changeInfo = (key, value, number) => {
 
           {/* Add Info  */}
           <Button variant={"outline-dark"} onClick={addInfo}>
-            Add new Description
+            Add new Plant
           </Button>
           {info.map((i) => (
             <Row
@@ -165,7 +165,7 @@ const changeInfo = (key, value, number) => {
           Close
         </Button>
         <Button variant="outline-success" onClick={addDevice}>
-          Add new Device
+          Add new Plant
         </Button>
       </Modal.Footer>
     </Modal>

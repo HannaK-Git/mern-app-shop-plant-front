@@ -6,6 +6,7 @@ import AppRouter from "./components/AppRouter";
 import NavBar from "./components/NavBar";
 import {Context} from "./index";
 import { Spinner } from "react-bootstrap";
+import FooterComp from "./components/Footer";
 
 
 const App = observer(() => {
@@ -24,8 +25,13 @@ const App = observer(() => {
 
   return (
     <BrowserRouter>
-    <NavBar/>
-      <AppRouter/>
+      <div style={{ minHeight: "100vh"}}>
+        <NavBar />
+        <AppRouter />
+      </div>
+      <div >
+        <FooterComp />
+      </div>
     </BrowserRouter>
   );
 })

@@ -16,7 +16,7 @@ const addBrand = () => {
     <Modal size="lg" show={show} onHide={onHide} centered>
       <Modal.Header closeButton>
         <Modal.Title id="contained-modal-title-vcenter">
-          Add new Brand
+          Add new Height
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
@@ -24,7 +24,7 @@ const addBrand = () => {
           <Form.Control 
           value={value}
           onChange = {e => setValue(e.target.value)}
-          placeholder={"Enter new Brand"} />
+          placeholder={"Enter new Height"} />
         </Form>
       </Modal.Body>
       <Modal.Footer>
@@ -33,7 +33,7 @@ const addBrand = () => {
         </Button>
         <Button variant="outline-success" 
         onClick={addBrand}>
-          Add new Brand
+          Add new Height
         </Button>
       </Modal.Footer>
     </Modal>

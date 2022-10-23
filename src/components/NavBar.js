@@ -19,10 +19,11 @@ const logOut = () => {
   user.setIsAuth(false);
 };
   return (
-    <Navbar bg="dark" variant="dark">
+    // <Navbar bg="dark" variant="dark">
+    <Navbar style={{backgroundColor: "green"}}>
       <Container>
-        <NavLink style={{ color: "white" }} to={SHOP_ROUTE}>
-          Device Planet
+        <NavLink style={{ color: "white", fontSize: "1.5rem", textDecoration: "none" }} to={SHOP_ROUTE}>
+          Plant Planet
         </NavLink>
         {user.isAuth ? (
           <Nav className="ml-auto" style={{ color: "white" }}>
