@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/mern-app-shop-plant-front/static/css/main.9f9f6291.css",
+    "main.js": "/mern-app-shop-plant-front/static/js/main.f5081161.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/mern-app-shop-plant-front/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/star.svg": "/mern-app-shop-plant-front/static/media/star.a5dbeab4792cef4d9defe687ccd292cc.svg",
+    "index.html": "/mern-app-shop-plant-front/index.html",
+    "main.9f9f6291.css.map": "/mern-app-shop-plant-front/static/css/main.9f9f6291.css.map",
+    "main.f5081161.js.map": "/mern-app-shop-plant-front/static/js/main.f5081161.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/mern-app-shop-plant-front/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f9f6291.css",
+    "static/js/main.f5081161.js"
+  ]
+}
